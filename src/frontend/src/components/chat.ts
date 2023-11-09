@@ -244,6 +244,7 @@ export class ChatComponent extends LitElement {
     `;
   };
 
+
   protected renderLoader = () => {
     return this.isLoading && !this.isStreaming
       ? html`
